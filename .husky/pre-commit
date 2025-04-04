@@ -1,3 +1,0 @@
-
-npm run format:write && npm run lint
-npx lint-staged       # Format AND stage changes automatically
