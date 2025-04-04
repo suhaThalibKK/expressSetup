@@ -7,11 +7,9 @@
     "format": "prettier --check .",
     "format:write": "prettier --write .",
     "lint": "eslint .",
-    "lint:fix": "eslint --fix .",
-    "prepare": "husky"
+    "lint:fix": "eslint --fix ."
   },
   "dependencies": {
-    "@suha.thalib/code-shield": "file:../../../DEV/Suha_npm_packages/suha-dev-starter/suha.thalib-code-shield-1.0.3.tgz",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "express": "~4.16.1",
