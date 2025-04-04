@@ -8,7 +8,7 @@
     "format:write": "prettier --write .",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
-    "prepare": "husky || true"
+    "prepare": "husky"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
@@ -31,5 +31,6 @@
   "lint-staged": {
     "*.js": "eslint --fix",
     "*.{js,css,md}": "prettier --write"
-  }
+  },
+  "type": "module"
 }
